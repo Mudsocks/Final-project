@@ -1,0 +1,31 @@
+finalproject.py
+
+by Ahmed Ben Mabrouk
+
+This expirment tests you response time and accuracy of pressing the arrow keys.
+It can effectively be used to test and train your fingers for better
+    typing control for applications such as video games.
+
+The stimuli is a direction up, down, left, or right in text form:
+<- -> /\ \/
+
+The stimuli are presented aftere a random wait time of around 0.25 to 4 seconds.
+When the stimuli is presented, the subject will have to identify which arrow key
+to press and react quickly.
+
+The subjects number and experiment start time are used to create the filename for
+the file that hold the results of teh experiments.
+
+The experiment results are saved in a csv file that records:
+Block Number
+Trial Number
+Response - which direction the subject pressed
+Accuracy - wether they pressed the right direction
+Response Time - how long it took to respond to the stimulus, records incorrect presses aswell
+
+We can change how many blocks and how many trials we want to run by changing:
+#-number of trials and blocks *
+nTrials = 10
+nBlocks = 3
+
+in finalproject.py
